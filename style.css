@@ -245,6 +245,10 @@ html {
   opacity: 0;
   transition: opacity 1s;
 }
+/* 
+.slideshow div.change {
+  opacity: 1;
+} */
 
 .slideshow div.change {
   opacity: 1;
