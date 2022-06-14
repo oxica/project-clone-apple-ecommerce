@@ -88,3 +88,21 @@ const slideshow = () => {
 };
 
 slideshow();
+
+//section-3
+const section3Content = document.querySelector(".section-3-content");
+
+window.addEventListener("scroll", () => {
+  // const scrollTop = window.pageYOffset;
+  // const section3Height = document.querySelector(".section-3").offsetHeight;
+  // const section3Top = document.querySelector(".section-3").offsetTop;
+  // const section3Bottom = section3Top + section3Height;
+
+  // if (scrollTop + window.innerHeight > section3Top && scrollTop < section3Bottom) {
+  //   section3Content.classList.add("change");
+  // }
+  if (window.pageYOffset + window.innerHeight >= section3Content.offsetTop + section3Content.offsetHeight / 2) {
+    section3Content.classList.add("change");
+  }
+}
+);
