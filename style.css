@@ -946,3 +946,9 @@ html {
     right: 5%;
   }
 }
+
+@media (max-width: 350px) {
+  html {
+    font-size: 28%;
+  }
+}
