@@ -512,7 +512,7 @@ html {
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
     ),
-    url(images/macBook/macbook-1-desktop.png) center no-repeat;
+    url(images/MacBook/macbook-1-desktop.png) center no-repeat;
   z-index: -1;
   opacity: 0;
 }
